@@ -1,0 +1,14 @@
+list = 9 chars
+
+listDigits = foreach list:
+    convert letter to number // e.g. A > 10, Z > 35
+
+listProducts = foreach list:
+    multiply with 7, 3, 1, 7, 3, 1, 7, 3, 1
+
+sum = foreach list:
+    //last digits are added
+    + n % 10
+
+// last digit of sum
+checksum = sum % 10
