@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // ReSharper disable file EnforceIfStatementBraces
 
+using System;
+using System.Linq;
+
 Console.WriteLine("checksum calculator for german ID card numbers");
 
 //GET INPUT FROM COMMAND LINE ARGUMENTS
